@@ -1,17 +1,15 @@
 # macos
-Useful commands for macOS
+Useful functions for macOS
 
-## `macos::notification <title> <message>`
-Display a desktop notification
+https://github.com/sschmid/bee-macos
 
-### Example
-```sh
-bee macos::notification "My App" "Build complete"
 ```
+usage:
 
-----------------------------------------
+  notification <title> <message>   display a desktop notification
+                                   e.g. bee macos notification "bee" "Build complete"
 
-## Dependencies
+requirements:
 
-### 3rd party
-- `osascript` - https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/reference/ASLR_cmds.html
+  osascript   https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/reference/ASLR_cmds.html
+```
